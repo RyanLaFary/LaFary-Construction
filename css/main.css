@@ -91,3 +91,22 @@ footer {
 footer p {
 	text-align: center;
 }
+
+/* SMALL (sm) devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	nav {
+		width: 50%;
+	}
+
+	nav.open {
+		left: 50%;
+	}
+}
+/* MEDIUM (md) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* LARGE (lg) devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
