@@ -46,6 +46,7 @@ nav {
 
 nav.open { /* styles for navbar when opened */
 	left: 0;
+	transition: left .25s ease;
 }
 
 nav.open ul {
