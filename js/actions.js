@@ -4,4 +4,9 @@ $(document).ready(function(){
     $('nav').toggleClass('open');
     $('body').toggleClass('open');
 	});
+
+  $('.your-class').slick({
+    nextArrow: '<button type="button" class="slick-next">></button>',
+    prevArrow: '<button type="button" class="slick-next"><</button>'
+  });
 });

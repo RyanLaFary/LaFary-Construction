@@ -39,12 +39,14 @@ nav {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	transition: left .25s ease;
+	transition: left .25s ease, opacity .15s ease;
+	opacity: 0;
 }
 
 nav.open { /* styles for navbar when opened */
 	left: 0;
-	transition: left .25s ease;
+	transition: left .25s ease, opacity .15s ease;
+	opacity: 1;
 }
 
 nav.open ul {
