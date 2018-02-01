@@ -70,6 +70,10 @@ nav ul li a {
 	color: white;
 }
 
+#mobile-icon {
+	z-index: 101;
+}
+
 #mobile-icon.open span {
 	background: white;
 }
