@@ -3,18 +3,16 @@
 }
 
 html,
-body,
-.wrapper {
+body {
 	width: 100%;
-	overflow-x: hidden;
-}
-
-.wrapper {
-	overflow-x: hidden;
 }
 
 body {
 	font-size: 16px;
+}
+
+body.open {
+	overflow: hidden;
 }
 
 header {
