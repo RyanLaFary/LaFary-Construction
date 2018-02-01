@@ -7,6 +7,6 @@ $(document).ready(function(){
 
   $('.your-class').slick({
     nextArrow: '<button type="button" class="slick-next">></button>',
-    prevArrow: '<button type="button" class="slick-next"><</button>'
+    prevArrow: '<button type="button" class="slick-prev"><</button>'
   });
 });
