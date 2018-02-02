@@ -29,6 +29,11 @@ img {
 	height: auto;
 }
 
+.pic-center {
+	width: 300px;
+	height: 300px;
+}
+
 nav {
 	background: darkblue;
 	/* padding: 15px 0 0 0; */ /* top right bottom left  (clockwise) */
