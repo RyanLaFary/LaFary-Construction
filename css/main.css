@@ -34,6 +34,10 @@ img {
 	height: 300px;
 }
 
+.pic-main {
+	width: 650px;
+	height: 450px;
+}
 nav {
 	background: darkblue;
 	/* padding: 15px 0 0 0; */ /* top right bottom left  (clockwise) */
