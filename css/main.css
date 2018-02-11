@@ -1,17 +1,25 @@
-* {
+* { /*everything*/
 	box-sizing: border-box; /* makes padding part of the width */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 }
 
-title {
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 800;
+	margin-bottom: 2rem;
 }
+
+h1 { font-size: 6rem; }
+h2 { font-size: 5rem; }
+h3 { font-size: 4rem; }
+h4 { font-size: 3rem; }
+h5 { font-size: 2rem; }
+h6 { font-size: 1rem; }
 
 html,
 body {
 	width: 100%;
-}
-
-body {
-	font-size: 16px;
 }
 
 body.open {
@@ -98,6 +106,32 @@ nav ul li a {
 	height: 60px;
 	width: 60px;
 }*/
+
+.section {
+	padding: 4rem 15px;
+}
+
+.section:nth-child(even) {
+	background-color: #f7f7f7;
+}
+
+.section.cta {
+	background: darkblue;
+	color: #fff;
+	text-align: center;
+}
+
+.section.cta .btn {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 15px 30px;
+	margin-top: 15px;
+	border-radius: 2px;
+}
+
+.section.cta .btn:hover {
+	background-color: rgba(225,225,225,.2);
+}
 
 footer {
 	border-top: 1px solid #ccc;
