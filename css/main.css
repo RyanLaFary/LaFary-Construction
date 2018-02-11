@@ -112,7 +112,7 @@ nav ul li a {
 .slideshow,
 .slick-list,
 .slick-slider {
-	height: 75vh; /* vh is viewport height */
+	height: 50vh; /* vh is viewport height */
 	width: 100%;
 }
 
@@ -250,6 +250,12 @@ footer p {
 	.logo,
 	nav {
 		float: left;
+	}
+
+	.slideshow,
+	.slick-list,
+	.slick-slider {
+		height: 75vh; /* vh is viewport height */
 	}
 }
 /* LARGE (lg) devices (large desktops, 1200px and up) */
