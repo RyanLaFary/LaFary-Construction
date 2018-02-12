@@ -27,9 +27,16 @@ body.open {
 	overflow: hidden;
 }
 
+header a .pic_logo {
+	height: 50px;
+	width: 55px;
+	float: left;
+}
+
 header {
-			color: darkblue;
-			font-family: 'Anton', sans-serif;
+	color: darkblue;
+	font-family: 'Anton', sans-serif;
+	overflow: hidden;
 }
 
 header h1 {
@@ -51,6 +58,7 @@ img {
 	width: 650px;
 	height: 450px;
 }
+
 nav {
 	background: darkblue;
 	/* padding: 15px 0 0 0; */ /* top right bottom left  (clockwise) */
@@ -166,7 +174,11 @@ nav ul li a {
 }
 
 .section.cta {
-	background: darkblue;
+	background: #000c8e;
+	background: -moz-linear-gradient(left, #000c8e 0%, #4180ff 100%);
+	background: -webkit-linear-gradient(left, #000c8e 0%,#4180ff 100%);
+	background: linear-gradient(to right, #000c8e 0%,#4180ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000c8e', endColorstr='#4180ff',GradientType=1 );
 	color: #fff;
 	text-align: center;
 }
