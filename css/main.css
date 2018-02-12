@@ -27,12 +27,6 @@ body.open {
 	overflow: hidden;
 }
 
-header a .pic_logo {
-	height: 50px;
-	width: 55px;
-	float: left;
-}
-
 header {
 	color: darkblue;
 	font-family: 'Anton', sans-serif;
