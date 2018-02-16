@@ -27,6 +27,15 @@ body.open {
 	overflow: hidden;
 }
 
+.pic_logo {
+	width: 33px;
+	height: 30px;
+	position: absolute;
+	float: left;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
 header {
 	color: darkblue;
 	font-family: 'Anton', sans-serif;
@@ -34,6 +43,7 @@ header {
 }
 
 header h1 {
+	margin-left: 25px;
 	margin-top: 15px;
 	font-size: 2.5rem;
 }
