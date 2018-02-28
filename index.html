@@ -17,69 +17,84 @@
   <script src="js/actions.js"></script>
 </head>
 
-<a href="index.html"><img src="images/lc_logo1.jpg" alt="LaFary Construction Logo" class="pic_logo"></a>
-
 <body>
   <header>
-    <div id="mobile-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="logo">
-      <div class="container-fluid">
-        <h1>LaFary Construction</h1>
+    <div class="container">
+      <div id="mobile-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <div class="logo">
+        <div class="container-fluid">
+          <a href="index.html"><img src="images/lc_logo1.jpg" alt="LaFary Construction Logo" class="pic_logo"></a>
+          <h1>LaFary Construction</h1>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="examples.html">Photos/Examples</a>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="examples.html">Photos/Examples</a>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
 
   <div class="slideshow">
-  <div class="autoplay">
-    <div><img src="images/img_05.jpg" width="300" height="300" alt="" class="pic-main"></div>
-    <div><img src="images/img_28.jpg" width="300" height="300" alt="" class="pic-main"></div>
-    <div><img src="images/img_26.jpg" width="300" height="300" alt="" class="pic-main"></div>
-    <div><img src="images/img_20.jpg" width="300" height="300" alt="" class="pic-main"></div>
+    <div class="autoplay">
+      <div>
+        <img src="images/img_05.jpg" width="300" height="300" alt="" class="pic-main">
+        <div class="caption animated fadeInUp">
+          <p>Superior Construction</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis animi obcaecati velit voluptatibus dignissimos neque.</p>
+          <a href="#" class="btn btn-primary btn-lg">See More</a>
+        </div>
+      </div>
+      <!-- <div><img src="images/img_28.jpg" width="300" height="300" alt="" class="pic-main"></div>
+      <div><img src="images/img_26.jpg" width="300" height="300" alt="" class="pic-main"></div>
+      <div><img src="images/img_20.jpg" width="300" height="300" alt="" class="pic-main"></div> -->
   </div>
   </div>
 
   <main id="main">
-
-      <section class="section">
+      <section class="section services">
         <div class="container">
-          <h2>About</h2>
-          <p>LaFary Construction is all about helpling anyone who needs work done. From kitchens to installing new light fixtures, we do it all! We are located in the Colerain area of Cincinnati Ohio, but we are willing to make the trip out to you even if it's farther away. We have had multiple clients that have been very satisfied with the work that we provide and we would like you to be the next one.</p>
-        <div>
-      </section>
+          <h2 class="h1 text-center">Services</h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <h3 class="text-center">Landscaping</h3>
+              <img src="images/trowel.svg" alt="">
 
-      <section class="section">
-        <div class="container">
-          <h3>Services</h3>
-          <p>We are able to provide almost any service that you may need done to your home. We can do everything from your basic handyman wokr all the way up to full room additions from the ground up! If you are interested in any more of what we can provide, there is a full list of services on our Servies page.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error officia, provident id maxime labore accusamus mollitia sed, voluptate laudantium tenetur saepe sequi perspiciatis? Nesciunt eaque sapiente natus accusamus eum.</p>
+            </div>
+            <div class="col-sm-4">
+              <h3 class="text-center">Remodeling</h3>
+              <img src="images/drill.svg" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error officia, provident id maxime labore accusamus mollitia sed, voluptate laudantium tenetur saepe sequi perspiciatis? Nesciunt eaque sapiente natus accusamus eum.</p>
+            </div>
+            <div class="col-sm-4">
+              <h3 class="text-center">Construction</h3>
+              <img src="images/tools.svg" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat error officia, provident id maxime labore accusamus mollitia sed, voluptate laudantium tenetur saepe sequi perspiciatis? Nesciunt eaque sapiente natus accusamus eum.</p>
+            </div>
+          </div>
         <div>
       </section>
 
       <section class="section cta">
         <div class="container">
-          <h3>Let's Get Started!</h3>
+          <h3 class="h2">Let's Get Started!</h3>
           <p>We are able to provide almost any service that you may need done to your home. We can do everything from your basic handyman work all the way up to full room additions from the ground up! If you are interested in any more of what we can provide, there is a full list of services on our Servies page. Or you can click below to get in touch with us.</p>
 
           <a href="contact.html" class="btn btn-cta">Contact Us</a>
         <div>
       </section>
-
-
   </main>
 
 
