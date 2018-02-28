@@ -5,17 +5,17 @@
 	font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 .h6 {
 	font-weight: 800;
 	margin-bottom: 2rem;
 }
 
-h1 { font-size: 4rem; }
-h2 { font-size: 3rem; }
-h3 { font-size: 2.5rem; }
-h4 { font-size: 2rem; }
-h5 { font-size: 1.5rem; }
-h6 { font-size: 1rem; }
+h1, .h1 { font-size: 4rem; }
+h2, .h2 { font-size: 3rem; }
+h3, .h3 { font-size: 2.5rem; }
+h4, .h4 { font-size: 2rem; }
+h5, .h5 { font-size: 1.5rem; }
+h6, .h6 { font-size: 1rem; }
 
 html,
 body {
@@ -40,12 +40,18 @@ header {
 	color: darkblue;
 	font-family: 'Anton', sans-serif;
 	overflow: hidden;
+  border-bottom: 1px solid #ccc;
 }
 
 header h1 {
-	margin-left: 25px;
+	margin-left: 5rem;
 	margin-top: 15px;
 	font-size: 2.5rem;
+}
+
+.logo-img {
+  background: red;
+  padding: 10px;
 }
 
 img {
@@ -169,6 +175,38 @@ nav ul li a {
 	right: 10px;
 }
 
+.slideshow {
+  position: relative;
+}
+
+.slideshow .caption {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  top: 35%;
+  margin-top: -10%;
+  left: 5%;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  width: 80%;
+  display: inline-block;
+}
+
+.slideshow .caption a {
+  width: 50%;
+  margin: 15px 0;
+}
+
+.slideshow .caption p {
+  font-size: 1.5rem;
+}
+
+.slideshow .caption p:first-child {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 .section {
 	padding: 4rem 15px;
 }
@@ -197,6 +235,13 @@ nav ul li a {
 
 .section.cta .btn:hover {
 	background-color: rgba(225,225,225,.2);
+}
+
+.section.services img {
+  height: 100px;
+  width: auto: ;
+  display: block;
+  margin: 30px auto;
 }
 
 footer {
@@ -274,8 +319,51 @@ footer p {
 	.slick-slider {
 		height: 75vh; /* vh is viewport height */
 	}
+
+  .slideshow .caption {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 5%;
+  }
+
+  .slideshow .caption p {
+    font-size: 1.75rem;
+  }
+
+  .slideshow .caption p:first-child {
+    font-size: 3rem;
+  }
+
 }
+
 /* LARGE (lg) devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .slideshow .caption {
+    position: absolute;
+    color: #fff;
+    font-weight: 900;
+    top: 50%;
+    margin-top: -10%;
+    left: 5%;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    padding: 1.5rem 3rem;
+    width: 50%;
+    display: inline-block;
+  }
 
+  .slideshow .caption a {
+    width: 50%;
+    margin: 15px 0;
+  }
+
+  .slideshow .caption p {
+    font-size: 2rem;
+  }
+
+  .slideshow .caption p:first-child {
+    font-size: 5rem;
+    font-weight: 900;
+  }
 }
