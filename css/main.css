@@ -175,7 +175,7 @@ nav ul li a {
 	right: 10px;
 }
 
-.slideshow {
+.slick-slide {
   position: relative;
 }
 
@@ -243,6 +243,12 @@ nav ul li a {
   display: block;
   margin: 30px auto;
 }
+
+/* #service {
+  background: url('https://images.unsplash.com/photo-1478486982180-2de2fafa19f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51197958a6f3d12db09044b32337eadd&auto=format&fit=crop&w=2851&q=80') center center;
+  color: #fff;
+  padding: 10rem 1rem;
+} */
 
 footer {
 	padding: 15px;
