@@ -215,7 +215,6 @@ nav ul li a {
 	background-color: #f7f7f7;
 }
 
-
 #photos {
   opacity: .88;
 }
@@ -261,8 +260,6 @@ ul {
   width: 100%;
 }
 
-
-
 .section.cta {
 	background: #000c8e;
 	background: -moz-linear-gradient(left, #000c8e 0%, #4180ff 100%);
@@ -293,7 +290,7 @@ ul {
 }
 
   #service {
-  background: url('https://images.unsplash.com/photo-1478486982180-2de2fafa19f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51197958a6f3d12db09044b32337eadd&auto=format&fit=crop&w=2851&q=80') center center;
+  background: url('images/img_40.jpg') center center;
   color: #fff;
   padding: 10rem 1rem;
 }
