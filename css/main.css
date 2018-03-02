@@ -289,10 +289,28 @@ ul {
   margin: 30px auto;
 }
 
+#example {
+	background: url('../images/img_41.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
+
   #service {
-  background: url('images/img_40.jpg') center center;
+  background: url('../images/img_40.jpg')center;
   color: #fff;
-  padding: 10rem 1rem;
+  padding: 5rem 1rem;
+}
+
+	#product {
+	background: url('../images/img_43.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
+
+	#about {
+	background: url('../images/img_44.jpg')center;
+	color: black;
+	padding: 5rem 1rem;
 }
 
 footer {
