@@ -289,6 +289,12 @@ ul {
   margin: 30px auto;
 }
 
+	#about {
+	background: url('../images/img_44.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
+
 	#example {
 	background: url('../images/img_41.jpg')center;
 	color: #fff;
@@ -304,12 +310,6 @@ ul {
 	#product {
 	background: url('../images/img_43.jpg')center;
 	color: #fff;
-	padding: 5rem 1rem;
-}
-
-	#about {
-	background: url('../images/img_44.jpg')center;
-	color: black;
 	padding: 5rem 1rem;
 }
 
