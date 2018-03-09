@@ -215,6 +215,51 @@ nav ul li a {
 	background-color: #f7f7f7;
 }
 
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 2px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 850px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
+}
+
 .section.cta {
 	background: #000c8e;
 	background: -moz-linear-gradient(left, #000c8e 0%, #4180ff 100%);
@@ -244,11 +289,29 @@ nav ul li a {
   margin: 30px auto;
 }
 
-/* #service {
-  background: url('https://images.unsplash.com/photo-1478486982180-2de2fafa19f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51197958a6f3d12db09044b32337eadd&auto=format&fit=crop&w=2851&q=80') center center;
+	#about {
+	background: url('../images/img_44.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
+
+	#example {
+	background: url('../images/img_41.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
+
+  #service {
+  background: url('../images/img_40.jpg')center;
   color: #fff;
-  padding: 10rem 1rem;
-} */
+  padding: 5rem 1rem;
+}
+
+	#product {
+	background: url('../images/img_43.jpg')center;
+	color: #fff;
+	padding: 5rem 1rem;
+}
 
 footer {
 	padding: 15px;
