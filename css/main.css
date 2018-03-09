@@ -69,6 +69,17 @@ img {
 	height: 450px;
 }
 
+.pic-basement_1 {
+	display: block;
+	padding-right: 30px;
+	margin-top: 40px;
+}
+
+.pic-bathroom_1 {
+	display: block;
+	padding-top: 40px;
+}
+
 nav {
 	background: darkblue;
 	/* padding: 15px 0 0 0; */ /* top right bottom left  (clockwise) */
@@ -229,16 +240,16 @@ nav ul li a {
 ul {
   list-style: none;
   margin: 0px auto;
-  padding: 10px;
+  padding: 0px;
   display: block;
   max-width: 780px;
-  text-align: center;
+  text-align: left;
 }
 
 #overlay {
   background: rgba(0,0,0, .8);
   width: 100%;
-  height: 100%;
+  height: 189.75%;
   position: absolute;
   top: 0;
   left: 0;
@@ -247,7 +258,7 @@ ul {
 }
 
 #overlay img {
-  margin: 10% auto 0;
+  margin: 30% auto 0;
   width: 850px;
   border-radius: 5px;
 }
