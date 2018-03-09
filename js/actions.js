@@ -34,10 +34,12 @@ $("body").append($overlay);
 
     //show the overlay
     $overlay.show();
-  } );
+    $('body').addClass('overlay');
+  });
 
   $("#overlay").click(function() {
     $( "#overlay" ).hide();
+    $('body').removeClass('overlay');
   });
 
 });
