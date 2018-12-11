@@ -381,6 +381,10 @@ footer p {
   .slick-arrow {
     display: block;
   }
+
+	iframe {
+	padding-right: 75px;
+}
 }
 /* MEDIUM (md) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
