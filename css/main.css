@@ -23,6 +23,15 @@ body {
 	height: 100%;
 }
 
+a {
+	color: darkblue;
+}
+
+a:hover {
+	color: darkblue;
+	text-decoration: none;
+}
+
 body.open,
 body.overlay {
 	overflow: hidden;
