@@ -397,6 +397,10 @@ footer p {
 		display: none
 	}
 
+	.pic_logo {
+		margin-top: 12px;
+	}
+
 	.logo {
 		width: 35%;
 	}
@@ -473,6 +477,10 @@ footer p {
     width: 50%;
     display: inline-block;
   }
+
+	.pic_logo {
+		margin-top: 12px;
+	}
 
   .slideshow .caption a {
     width: 50%;
